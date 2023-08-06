@@ -1,0 +1,7 @@
+Adding Movement Input:
+1) Create a platform for both the server / client project(should be identical).
+2) Go to the Client Side -> PlayerController.cs -> SendInputToServer(), inside the bool array initialization,
+add your new input key.
+3) Go to the Server Side -> Player.cs-> Move(), add a condition for when your key is pressed. Add additional
+implications when the new feature is added.
+4) 
